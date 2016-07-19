@@ -78,11 +78,10 @@ a:active {
 
 
 /* INTRO */
+/* Las imagenes no se repiten y fixed lo adapta */
 header {
 	background:url(img/header.jpg) no-repeat center center fixed;
 	-webkit-background-size: cover;
-	-moz-background-size: cover;
-	background-size: cover;
 	width: 100%;
 	margin-top: -80px;
 	/*Crea espacios y margen*/
@@ -128,21 +127,23 @@ header h2 {
 	color: #443F45;
 }
 
+/* https://24ways.org/2009/working-with-rgba-colour */
+
 #zen-preamble h3 {
 	text-align: center;
-	background:rgba(255, 255, 255, .6);
+	background:rgba(255, 255, 255, 0.6);
 }
 
 #zen-preamble p {
 	width: 75%;
 	margin:0 auto 0 auto;
-	background:rgba(255, 255, 255, .6);
+	background:rgba(255, 255, 255, 0.6);
 }
 
 #zen-summary p {
 	width: 75%;
 	margin:0 auto 0 auto;
-	background:rgba(255, 255, 255, .6);
+	background:rgba(255, 255, 255, 0.6);
 }
 /* END PREAMBLE */
 
@@ -178,22 +179,22 @@ header h2 {
 
 .participation h3 {
 	text-align: center;
-	background:rgba(255, 255, 255, .6);;
+	background:rgba(255, 255, 255, 0.6);;
 }
 
 .participation p {
 	width: 75%;
 	margin:0 auto 0 auto;
-	background:rgba(255, 255, 255, .6);
+	background:rgba(255, 255, 255, 0.6);
 }
 /* END PARTICIPATION */
 
 
 /* BENIFITS */
 .benefits {
-	background-color: #FFFFFF;
-	width:75%;
-	margin: 5% auto 5% auto;
+	width: 75%;
+	margin:0 auto 0 auto;
+	background:rgba(255, 255, 255, 0.6);
 }
 
 .benefits h3 {
