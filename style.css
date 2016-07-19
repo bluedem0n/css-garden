@@ -17,25 +17,24 @@ body, html {
 .page-wrapper {
 
 }
-/* END MAIN PIECES */
-
 
 /* TIPOGRAFIA */
+/* font -weight para establecer el grosor con el que se muestran las letras del texto */
 h1 {
-	font-size: 85px;
+	font-size: 80px;
 	font-weight: bold;
 }
 
 h2 {
-	font-size: 35px;
+	font-size: 40px;
 	font-weight: bold;
 }
 
 h3 {
-	font-size: 25px;
+	font-size: 30px;
 	font-weight: bold;
-	padding: .5%;
-	color: #D1758E;
+	padding: 2%;
+	color: #8181F7;
 }
 
 p {
@@ -47,6 +46,7 @@ p {
 
 
 /* LINKS & UL LI */
+/* list-style-type le quita los . */
 ul {
 	text-decoration: none;
 }
@@ -55,16 +55,16 @@ ul li {
 	text-decoration: none;
 	list-style-type: none;
 }
-
+/* todos los a que tienen un link */
 a:link {
 	text-decoration: none;
-	color: #96BBD5;
+	color: #443F45;
 	transition: all .5s ease 0;
 }
 
 a:visited {
 	text-decoration: none;
-	color: #96BBD5
+	color: #443F45;
 }
 
 a:hover {
@@ -98,6 +98,7 @@ header h1 {
 
 header h2 {
 	margin-top: -75px;
+	/* blanco */
 	color: #FFFFFF;
 	text-shadow: 4px 4px 4px  #443F45;
 }
@@ -106,6 +107,7 @@ header h2 {
 /* END INTRO */
 
 .summary {
+	
 	background-color: #FFFFFF;
 	width:75%;
 	margin: 5% auto 5% auto;
@@ -117,11 +119,10 @@ header h2 {
 
 /* PREAMBLE */
 .preamble {
-	background: url(img/bandaderock.jpg) no-repeat center center fixed;
+	background:url(img/bandaderock.jpg) no-repeat center center fixed;
 	-webkit-background-size: cover;
 	-moz-background-size: cover;
 	background-size: cover;
-
 	width: 100%;
 	padding: 25% 0 25% 0;
 	color: #443F45;
@@ -133,6 +134,12 @@ header h2 {
 }
 
 #zen-preamble p {
+	width: 75%;
+	margin:0 auto 0 auto;
+	background:rgba(255, 255, 255, .6);
+}
+
+#zen-summary p {
 	width: 75%;
 	margin:0 auto 0 auto;
 	background:rgba(255, 255, 255, .6);
@@ -240,9 +247,8 @@ footer {
 }
 
 .design-selection {
-	width:33.3%;
+	width:35%;
 	float: left;
-	margin: 0 auto 0 auto;
 }
 
 .design-archives {
@@ -252,8 +258,11 @@ footer {
 }
 
 .zen-resources {
-	width: 33.3%;
+	width: 20%;
 	float: left;
 	margin:0 auto 0 auto;
+}
+
+
 }
 /* END SIDEBAR */
