@@ -1,0 +1,258 @@
+/* MAIN PIECES */
+@import url(http://fonts.googleapis.com/css?family=Maven+Pro);
+
+body, html {
+	margin: 0;
+	padding: 0;
+	top: 0;
+	font-family: 'Maven Pro', sans-serif;
+}
+
+/* COLOR DEL FONDO*/
+#css-zen-garden {
+	background-color: #F3A590;
+}
+
+.page-wrapper {
+
+}
+/* END MAIN PIECES */
+
+
+/* TIPOGRAFIA */
+h1 {
+	font-size: 85px;
+	font-weight: bold;
+}
+
+h2 {
+	font-size: 35px;
+	font-weight: bold;
+}
+
+h3 {
+	font-size: 25px;
+	font-weight: bold;
+	padding: .5%;
+	color: #D1758E;
+}
+
+p {
+	font-size: 14px;
+	padding: .5%;
+	color: #443F45;
+}
+/* END TIPOGRAFIA */
+
+
+/* LINKS & UL LI */
+ul {
+	text-decoration: none;
+}
+
+ul li {
+	text-decoration: none;
+	list-style-type: none;
+}
+
+a:link {
+	text-decoration: none;
+	color: #96BBD5;
+	transition: all .5s ease 0;
+}
+
+a:visited {
+	text-decoration: none;
+	color: #96BBD5
+}
+
+a:hover {
+	color: #A7536B;
+}
+
+a:active {
+	text-decoration: none;
+}
+/* FIN UL Y LI */
+
+
+/* INTRO */
+header {
+	background:url(img/header.jpg) no-repeat center center fixed;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	background-size: cover;
+	width: 100%;
+	margin-top: -80px;
+	/*Crea espacios y margen*/
+	padding: 30% 0 30% 0;
+	text-align: center;
+}
+
+header h1 {
+	color: #FFFFFF;
+	/* Text shadow es para ponerle sombra es un efecto  http://www.w3schools.com/cssref/css3_pr_text-shadow.asp*/
+	text-shadow: 4px 4px 4px #443F45;
+}
+
+header h2 {
+	margin-top: -75px;
+	color: #FFFFFF;
+	text-shadow: 4px 4px 4px  #443F45;
+}
+}
+
+/* END INTRO */
+
+.summary {
+	background-color: #FFFFFF;
+	width:75%;
+	margin: 5% auto 5% auto;
+	text-align: center;
+	color: #443F45;
+}
+
+
+
+/* PREAMBLE */
+.preamble {
+	background: url(img/bandaderock.jpg) no-repeat center center fixed;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	background-size: cover;
+
+	width: 100%;
+	padding: 25% 0 25% 0;
+	color: #443F45;
+}
+
+#zen-preamble h3 {
+	text-align: center;
+	background:rgba(255, 255, 255, .6);
+}
+
+#zen-preamble p {
+	width: 75%;
+	margin:0 auto 0 auto;
+	background:rgba(255, 255, 255, .6);
+}
+/* END PREAMBLE */
+
+
+/* EXPLANATION */
+.explanation {
+	background-color: #FFFFFF;
+	width:75%;
+	margin: 5% auto 5% auto;
+}
+
+.explanation h3 {
+	text-align: center;
+}
+
+.explanation p {
+	margin:0 auto 0 auto;
+}
+/* END EXPLANATION */
+
+
+/* PARTICIPATION */
+.participation {
+	background: url(img/chicarock.jpg) no-repeat center center fixed;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	background-size: cover;
+
+	width: 100%;
+	padding: 25% 0 25% 0;
+	color: #443F45;
+}
+
+.participation h3 {
+	text-align: center;
+	background:rgba(255, 255, 255, .6);;
+}
+
+.participation p {
+	width: 75%;
+	margin:0 auto 0 auto;
+	background:rgba(255, 255, 255, .6);
+}
+/* END PARTICIPATION */
+
+
+/* BENIFITS */
+.benefits {
+	background-color: #FFFFFF;
+	width:75%;
+	margin: 5% auto 5% auto;
+}
+
+.benefits h3 {
+	text-align: center;
+}
+
+.benefits p {
+	margin:0 auto 0 auto;
+}
+/* END BENIFITS */
+
+
+/* REQUIRMENTS */
+.requirements {
+	background: url(img/rockabajo.jpg) no-repeat center center fixed;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	background-size: cover;
+
+	width: 100%;
+	padding: 25% 0 25% 0;
+	color: #443F45;
+}
+
+.requirements h3 {
+	text-align: center;
+	background:rgba(255, 255, 255, .6);
+}
+
+.requirements p {
+	width: 75%;
+	margin:0 auto 0 auto;
+	background:rgba(255, 255, 255, .6);
+}
+/* END REQUIRMENTS */
+
+
+/* FOOTER */
+footer {
+	margin:0 auto 0 auto;
+	padding: 2%;
+	text-align: center;
+	width: 50%;
+	word-spacing: 25px;
+}
+/* END FOOTER */
+
+/* SIDEBAR */
+.sidebar {
+	text-align: center;
+}
+
+.design-selection {
+	width:33.3%;
+	float: left;
+	margin: 0 auto 0 auto;
+}
+
+.design-archives {
+	width:33.3%;
+	float: left;
+	margin:0 auto 0 auto;
+}
+
+.zen-resources {
+	width: 33.3%;
+	float: left;
+	margin:0 auto 0 auto;
+}
+/* END SIDEBAR */
