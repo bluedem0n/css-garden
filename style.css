@@ -116,7 +116,7 @@
 	}
 	
 	
-	
+	/* TODAS MIS IMAGENES TIENEN FIXED PARA PONERLO FIJO */
 	/* PREAMBLE */
 	.preamble {
 	background:url(img/bandaderock.jpg) no-repeat center center fixed;
@@ -137,6 +137,7 @@
 	width: 75%;
 	margin:0 auto 0 auto;
 	background:rgba(255, 255, 255, 0.6);
+	padding: 1%;
 	}
 	
 	#zen-summary p {
@@ -175,7 +176,7 @@
 	
 	.participation h3 {
 	text-align: center;
-	background:rgba(255, 255, 255, 0.6);;
+	background:rgba(255, 255, 255, 0.6);
 	}
 	
 	.participation p {
@@ -188,17 +189,21 @@
 	
 	/* BENIFITS */
 	.benefits {
-	width: 75%;
-	margin:0 auto 0 auto;
-	background:rgba(255, 255, 255, 0.6);
+	background: url(img/benefits.jpg) no-repeat center center fixed;
+	-webkit-background-size: cover;
+	width: 100%;
+	padding: 1% 0 1% 0;
 	}
 	
 	.benefits h3 {
 	text-align: center;
+	background:rgba(255, 255, 255, 0.6);
 	}
 	
 	.benefits p {
+	width: 50%;
 	margin:0 auto 0 auto;
+	background:rgba(255, 255, 255, 0.6);
 	}
 	/* END BENIFITS */
 	
