@@ -2,10 +2,7 @@
 	https://www.google.com/fonts#QuickUsePlace:quickUse/Family:New+Rocker*/
 	
 	@import url(https://fonts.googleapis.com/css?family=New+Rocker);
-<<<<<<< HEAD
 	
-=======
->>>>>>> 42ae8123c462ebdec247fbdafbeb2c347c7f0291
 	body {
 	/* Margin , padding y top  para alinear mi contenido a la pantalla*/
 	margin: 0;
@@ -64,7 +61,6 @@
 	a:link {
 	text-decoration: none;
 	color: #443F45;
-	transition: all .5s ease 0;
 	}
 	
 	a:visited {
@@ -146,14 +142,12 @@
 	#zen-summary p {
 	width: 75%;
 	margin:0 auto 0 auto;
-	background:rgba(255, 255, 255, 0.6);
 	}
 	/* END PREAMBLE */
 	
 	
 	/* EXPLANATION */
 	.explanation {
-	background:rgba(255, 255, 255, 0.6);
 	width:75%;
 	margin: 5% auto 5% auto;
 	}
@@ -194,7 +188,6 @@
 	.benefits {
 	width: 75%;
 	margin:0 auto 0 auto;
-	background:rgba(255, 255, 255, 0.6);
 	}
 	
 	.benefits h3 {
