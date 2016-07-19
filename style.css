@@ -61,6 +61,16 @@
 	    text-decoration: none;
 	}
 	/* FIN UL Y LI */
+	/* FOOTER */
+	
+	footer {
+	    margin: 0 auto 0 auto;
+	    padding: 2%;
+	    text-align: center;
+	    width: 50%;
+	    word-spacing: 25px;
+	}
+	/* FIN FOOTER */
 	/* INTRO */
 	
 	header {
@@ -85,7 +95,7 @@
 	}
 	}
 	/* FIN INTRO */
-	
+
 	.summary {
 	    background-color: #FFFFFF;
 	    width: 75%;
@@ -143,7 +153,7 @@
 	    padding: 25% 0 25% 0;
 	    color: #443F45;
 	}
-	
+
 	.participation h3 {
 	    text-align: center;
 	    background: rgba(255, 255, 255, 0.6);
@@ -192,16 +202,6 @@
 	    background: rgba(255, 255, 255, .6);
 	}
 	/* FIN REQUIRMENTS */
-	/* FOOTER */
-	
-	footer {
-	    margin: 0 auto 0 auto;
-	    padding: 2%;
-	    text-align: center;
-	    width: 50%;
-	    word-spacing: 25px;
-	}
-	/* FIN FOOTER */
 	/* SIDEBAR */
 	
 	.sidebar {
