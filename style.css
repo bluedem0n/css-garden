@@ -2,7 +2,8 @@
 https://www.google.com/fonts#QuickUsePlace:quickUse/Family:New+Rocker*/
 
 @import url(https://fonts.googleapis.com/css?family=New+Rocker);
-body, html {
+body {
+	/* Margin , padding y top  para alinear mi contenido a la pantalla*/
 	margin: 0;
 	padding: 0;
 	top: 0;
@@ -38,8 +39,8 @@ h3 {
 }
 
 p {
-	font-size: 14px;
-	padding: .5%;
+	font-size: 20px;
+	padding: 0.5%;
 	color: #443F45;
 }
 /* END TIPOGRAFIA */
@@ -120,8 +121,6 @@ header h2 {
 .preamble {
 	background:url(img/bandaderock.jpg) no-repeat center center fixed;
 	-webkit-background-size: cover;
-	-moz-background-size: cover;
-	background-size: cover;
 	width: 100%;
 	padding: 25% 0 25% 0;
 	color: #443F45;
@@ -150,7 +149,7 @@ header h2 {
 
 /* EXPLANATION */
 .explanation {
-	background-color: #FFFFFF;
+	background:rgba(255, 255, 255, 0.6);
 	width:75%;
 	margin: 5% auto 5% auto;
 }
@@ -169,9 +168,6 @@ header h2 {
 .participation {
 	background: url(img/chicarock.jpg) no-repeat center center fixed;
 	-webkit-background-size: cover;
-	-moz-background-size: cover;
-	background-size: cover;
-
 	width: 100%;
 	padding: 25% 0 25% 0;
 	color: #443F45;
@@ -211,9 +207,6 @@ header h2 {
 .requirements {
 	background: url(img/rockabajo.jpg) no-repeat center center fixed;
 	-webkit-background-size: cover;
-	-moz-background-size: cover;
-	background-size: cover;
-
 	width: 100%;
 	padding: 25% 0 25% 0;
 	color: #443F45;
@@ -253,7 +246,7 @@ footer {
 }
 
 .design-archives {
-	width:33.3%;
+	width:35%;
 	float: left;
 	margin:0 auto 0 auto;
 }
